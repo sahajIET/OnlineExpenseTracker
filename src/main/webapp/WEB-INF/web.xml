@@ -1,0 +1,67 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>userRegister</servlet-name>
+  	<display-name>userRegister</display-name>
+  	<description></description>
+  	<servlet-class>com.servlet.userRegister</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Login</servlet-name>
+  	<display-name>Login</display-name>
+  	<description></description>
+  	<servlet-class>com.servlet.Login</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Logout</servlet-name>
+  	<display-name>Logout</display-name>
+  	<description></description>
+  	<servlet-class>com.servlet.Logout</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Save</servlet-name>
+  	<display-name>Save</display-name>
+  	<description></description>
+  	<servlet-class>com.servlet.Save</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Update</servlet-name>
+  	<display-name>Update</display-name>
+  	<description></description>
+  	<servlet-class>com.servlet.Update</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Delete</servlet-name>
+  	<display-name>Delete</display-name>
+  	<description></description>
+  	<servlet-class>com.servlet.Delete</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>userRegister</servlet-name>
+  	<url-pattern>/userRegister</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Login</servlet-name>
+  	<url-pattern>/Login</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Logout</servlet-name>
+  	<url-pattern>/Logout</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Save</servlet-name>
+  	<url-pattern>/Save</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Update</servlet-name>
+  	<url-pattern>/Update</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Delete</servlet-name>
+  	<url-pattern>/Delete</url-pattern>
+  </servlet-mapping>
+</web-app>
